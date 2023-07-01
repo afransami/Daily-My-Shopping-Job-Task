@@ -39,17 +39,7 @@ const Login = () => {
   return (
     <div className="login-bg hero min-h-screen  ">
       <div className=" grid lg:grid-cols-2 w-auto items-center ">
-        <Player
-          autoplay
-          loop
-          src="../../../src/assets/38435-register.json"
-          className="w-auto"
-        >
-          <Controls
-            visible={false}
-            buttons={["play", "repeat", "frame", "debug"]}
-          />
-        </Player>
+        <img className="max-w-full" src="https://i.ibb.co/SwD98FV/login-Page.webp" alt="" />
         <div className="card flex-shrink-0 bg-gradient-to-r from-neutral-600 via-cyan-600 to-neutral-600 shadow-xl bg-opacity-30">
           <h1 className="text-4xl p-5 font-bold">Login!</h1>
           <form onSubmit={handleSubmit(handleLogin)}>
